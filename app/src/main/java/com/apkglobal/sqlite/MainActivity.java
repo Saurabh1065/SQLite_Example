@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Declare all of them
         et_name=(EditText)findViewById(R.id.et_name);
         et_mobile=(EditText)findViewById(R.id.et_mobile);
         et_email=(EditText)findViewById(R.id.et_email);
