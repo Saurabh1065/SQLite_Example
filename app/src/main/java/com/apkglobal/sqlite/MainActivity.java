@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 smobile=et_mobile.getText().toString();
                 semail=et_email.getText().toString();
 
-                sd.execSQL("insert into register(name,mobile,email) values"+"('"+sname+"','"+smobile+"'.'"+semail+"')");
+                sd.execSQL("insert into register(name,mobile,email) values"+"('"+sname+"','"+smobile+"','"+semail+"')");
             }
         });
     }
